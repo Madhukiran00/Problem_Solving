@@ -104,7 +104,7 @@ print(sum)'''
 # 6)Write a program that takes array of numbers are input, 
 # print the second duplicate number and 
 
-
+list=[64,1,]
 
 
 
