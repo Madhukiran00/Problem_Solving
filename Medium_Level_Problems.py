@@ -101,13 +101,23 @@ print(sum)'''
 #Output: 10
 #-------------------------------------------------
 
-# 6)Write a program that takes array of numbers are input, 
-# print the second duplicate number and 
+# 6) Write a program that takes array of numbers are input, 
+# print the second duplicate number and and it’s occurrence
 
-list=[64,1,]
+list=[64,1,2,7,79,7,7,1,22]
 
+count=0
+for i in list:
+    if list.count(i)>1:
+        count+=1
+    if count==2:
+        print(f" Secound duplicate number is {i} and it is occured {list.count(i)} times")
+        break
 
+#Output: Secound duplicate number is 7 and it is occured 3 times
+#------------------------------------------------------------------------
 
+# 7) 
 
 
 
