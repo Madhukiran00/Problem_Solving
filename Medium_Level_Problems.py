@@ -117,9 +117,6 @@ for i in list:
 #Output: Secound duplicate number is 7 and it is occured 3 times
 #------------------------------------------------------------------------
 
-# 7) 
-
-
 
 
 
