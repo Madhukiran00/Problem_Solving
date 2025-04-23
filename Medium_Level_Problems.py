@@ -104,7 +104,7 @@ print(sum)'''
 # 6) Write a program that takes array of numbers are input, 
 # print the second duplicate number and and it’s occurrence
 
-list=[64,1,2,7,79,7,7,1,22]
+'''list=[64,1,2,7,79,7,7,1,22]
 
 count=0
 for i in list:
@@ -112,20 +112,324 @@ for i in list:
         count+=1
     if count==2:
         print(f" Secound duplicate number is {i} and it is occured {list.count(i)} times")
-        break
+        break'''
 
 #Output: Secound duplicate number is 7 and it is occured 3 times
 #------------------------------------------------------------------------
 
-# 7) 
+# 7) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input("Enter number of rows:"))
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print("\n")'''
+    
+# Output: 
+''' 1
+    1 2
+    1 2 3
+    1 2 3 4 '''
+
+#-------------------------------------------------------------------------
+
+# 8) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input("Enter number of rows: "))
+
+for i in range(1,rows+1):
+    for j in range(rows,i-1,-1):
+        print(j,end=" ")
+    print("\n")'''
+
+# Output: 
+'''4 3 2 1 
+
+   4 3 2 
+
+   4 3 
+
+   4 '''
+
+#-------------------------------------------------------
+
+# 9) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=4
+for i in range(1,rows+1):
+    sum=0
+    for j in range(1,i+1):
+        print(j,end=" ")
+    for k in range(1,j+1):
+        sum+=k
+    print(sum,end=" ")
+    print("\n")'''
+
+# Output: 
+'''1 1 
+
+   1 2 3 
+
+   1 2 3 6 
+
+   1 2 3 4 10 '''
+   
+#-------------------------------------------------------
+# 10) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input("Enter number of rows: "))
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print(" "*(rows-i),j,end=" "*3)
+    print("\n")'''
+    
+# Output:
+'''    1
+     1   2
+   1   2   3 '''
+   
+#-------------------------------------------------------
+
+# 11) Write a program that takes number of rows as input and print below respective pattern.
+
+
+'''rows=4
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print(j,end="")
+    print("+"*i)
+    print("\n")
+    '''
+# Output:
+'''1++++
+
+   12+++
+
+   123++
+
+   1234+'''
+#-------------------------------------------------------
+
+# 12) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input("Enter number of rows: "))
+
+for i in range(1, rows+1):
+    for j in range(1,i+1):
+        print("+",end=" ")
+    print(i)
+    print("\n")'''
+
+# Output:
+'''+ 1
+
+   + + 2
+
+   + + + 3
+
+   + + + + 4'''
+#-------------------------------------------------------
+# 13) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input("Enter number of rows: "))
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print("+",end=" ")
+    for k in range(1,j+1):
+        print(k,end=" ")
+    print("\n")'''
+    
+# Output:
+'''+1
+   ++12
+   +++123
+   ++++1234'''
+   
+#-------------------------------------------------------
+
+# 14) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input(" Enter number of rows: "))
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print(chr(64+j),end=" ")
+    print("\n")'''
+
+# Output:  
+'''A 
+   A B 
+   A B C 
+   A B C D '''
+
+#--------------------------------------------------------
+
+# 15) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=int(input("Enter number of roes: "))
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print(" "*(rows-i),chr(64+j),end=" ")
+    print("\n")'''
+
+#Output: 
+''' A 
+
+  A   B 
+
+ A  B  C 
+'''
+
+#------------------------------------------------------
+
+#16) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=4
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        print(chr(64+j),end=" ")
+    for k in range(1,j+1):
+        print(k,end=" ")
+    print("\n")'''
+
+# Output: 
+'''A 1 
+   A B 1 2 
+   A B C 1 2 3 
+   A B C D 1 2 3 4 '''
+
+#--------------------------------------------------------------
+
+# 17) Write a program that takes number of rows as input and print below respective pattern.
+
+'''rows=4
+
+for i in range(1,rows+1):
+    for j in range(1,i+1):
+        if i%2!=0 :
+            print(chr(64+j),end=" ")
+        else:
+            print(chr(96+j),end=" ")
+    print("\n")'''
+
+# Output: 
+'''A 
+   a b 
+   A B C 
+   a b c d '''
+#----------------------------------------------------
+
+# 18) Write a function that rotates an array to the right by a given number of steps.
+
+'''list=[1,2,3,4,5]
+no_of_rot=3
+new_list=[]
+
+
+for i in range(len(list)):
+    
+    new_list.append(list[-(no_of_rot)])
+    no_of_rot-=1
+print(new_list)'''
+
+# Output: [3, 4, 5, 1, 2]
+
+#------------------------------------------------------
+
+# Write a function that returns the common elements between two arrays.
+
+'''list=[1,2,3]
+list2=[2,3,4]
+comm_ele=[]
+
+def common(list1,list2):
+    for i in range(len(list1)):
+        if list[i] in list2:
+            comm_ele.append(list[i])
+        
+    return comm_ele
+res=common(list,list2)
+print(res)
+'''
+#Output: [2, 3]
+
+#------------------------------------------------------
+
+# 20) Given an array of consecutive numbers with one missing, find the missing number.
+
+'''list=[1,2,4,5,6,8]
+miss_num=[]
+for i in range(1,list[-1]):
+    if i not in list:
+        miss_num.append(i)
+print(miss_num)'''
+    
+#Output : [3, 7]
+#------------------------------------------------------
+
+# 21)  Write a function to find the maximum product of two elements in an array.
+
+list=[3,5,-2,8,11]
 
 
 
+'''def max_product(list):
+    global max,secound_max
+    max=list[0]
+    secound_max=list[1]
+    for i in range(len(list)):
+        if list[i]>max and list[i]>secound_max:
+            secound_max=max
+            max=list[i]
+        elif list[i]<max and list[i]>secound_max:
+            secound_max=list[i]
+    return max,secound_max
+res=max_product(list)
+print(f"{max} * {secound_max} ={max*secound_max}")'''
 
 
+# Output: 11 * 8 =88
+
+#------------------------------------------------------
+
+# 22)Write a function that moves all zeros in an array to the end while maintaining the order of other elements.
 
 
- 
+'''list=[0,1,0,3,12]
+list.sort()
+def move_zero(list):
+    for i in range(len(list)):
+        if list[i]==0:
+            list.append(list[i])
+            list.remove(list[i])
+            
+    return list
+move_zero(list) 
+print(list)'''  
+
+# Output: [1,3,12,0,0]
+#--------------------------------------------------------
+
+# 23) Write a function to find all pairs in an array whose sum is equal to a given target.
+
+list=[2,4,3,5,7,8,9]
+sum=7
+res_list=[]
+for i in range (len(list)):
+    loc_list=[]
+    for j in range(1,len(list)):
+        if sum==list[i]+list[j]:
+            loc_list.insert(list[i],list[j])
+    print(loc_list)
+    if loc_list!=[]:        
+        res_list.append(loc_list)
+    
+# print(res_list)
 
 
-
+            
