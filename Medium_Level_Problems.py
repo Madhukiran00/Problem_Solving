@@ -417,19 +417,53 @@ print(list)'''
 
 # 23) Write a function to find all pairs in an array whose sum is equal to a given target.
 
-list=[2,4,3,5,7,8,9]
-sum=7
-res_list=[]
-for i in range (len(list)):
-    loc_list=[]
-    for j in range(1,len(list)):
-        if sum==list[i]+list[j]:
-            loc_list.insert(list[i],list[j])
-    print(loc_list)
-    if loc_list!=[]:        
-        res_list.append(loc_list)
+
+# list=[2,4,3,5,7,8,9]
+# sum=7
+# res_list=[]
+# for i in range (len(list)):
+#     loc_list=[]
+#     for j in range(1,len(list)):
+#         if sum==list[i]+list[j]:
+#             loc_list.insert(list[i],list[j])
+#     print(loc_list)
+#     if loc_list!=[]:        
+#         res_list.append(loc_list)
     
 # print(res_list)
 
+#-------------------------------------------------------------------------------------
+# 24)  Write a function to find a peak element in an array. An element is a peak if it is not smaller than its neighbours.
+
+
+'''lis=[1, 3, 20, 4, 1, 0]
+def peak(lis):
+    for i in range(len(lis)-3):
+        first=lis[i]
+        mid=lis[i+1]
+        last=lis[i+2]
+        if mid>=first and mid>=last:
+            return mid
+res=peak(lis)
+print(res)'''
+
+#Output: 20
+
+#---------------------------------------------------------------------------------------------
+
+# 25) Write a function to return the first duplicate value in an array.
+
+
+lis=[2, 1, 3, 5, 3, 2]
+# def dup(lis):
+for i in range(len(lis)):
+        for j in range(len(lis)):
+            if lis[i]==lis[j]:
+                print(lis[i])
+            
+            
+            
+        
+    
 
             
