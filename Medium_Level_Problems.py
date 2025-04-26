@@ -469,9 +469,15 @@ print(res)'''
 
 # 26) Write a function to flatten a nested array into a single array.
 
-# l=[1,[2,[3,[4]],5]]
-lis=[1,[4]]
-print(lis[0],lis[1])  
+l=[1,[2,[3,[4]],5]]
+
+print(l[0])
+# for i in range(len(l)):
+#     print(l[i])
+    
+    
+
+
             
         
     
