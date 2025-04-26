@@ -453,15 +453,25 @@ print(res)'''
 
 # 25) Write a function to return the first duplicate value in an array.
 
-
-lis=[2, 1, 3, 5, 3, 2]
+# lis=[2, 1, 3, 5, 3, 2]
 # def dup(lis):
-for i in range(len(lis)):
-        for j in range(len(lis)):
-            if lis[i]==lis[j]:
-                print(lis[i])
+#     for i in range(len(lis)):
+#         for j in range(len(lis)):
+#             if lis[i]==lis[j]:
+#                 return lis[i]
             
-            
+# res=dup(lis)
+# print(res)
+
+#Output: 2  
+
+#-----------------------------------------------------------------
+
+# 26) Write a function to flatten a nested array into a single array.
+
+# l=[1,[2,[3,[4]],5]]
+lis=[1,[4]]
+print(lis[0],lis[1])  
             
         
     
