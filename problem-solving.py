@@ -99,7 +99,7 @@ var="aaaabbbccddggjj"
         
 lis=[2,8,9,4,5,3]
 max_num=max(lis)
-del lis.remove(max_num)
+lis.remove(max_num)
 print(max(lis))
 
 
