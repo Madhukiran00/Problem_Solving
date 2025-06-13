@@ -144,18 +144,30 @@ var="aaaabbbccddggjj"
 # [[1,2],
 #  [3,4]]
 
-r,c=map(int,input().split())
-
-main=[]
-
-for i in range(r):
-    sub=[]
+# r,c=map(int,input().split())
+# main=[]
+# for i in range(r):
+#     sub=[]
   
-    for j in range(c):
-        sub.append(int(input()))
-    main.append(sub)
+#     for j in range(c):
+#         sub.append(int(input()))
+#     main.append(sub)
 
-print(main)
+# print(main)
+
+lis=[3,5,6,8,9,3]
+
+fir=lis[0]
+sec=lis[1]
+
+for i in range(len(lis)):
+    
+    if lis[i]>fir and lis[i]<sec:
+        sec=fir
+        fir=lis[i]
+    else:
+        
+
     
 
 
