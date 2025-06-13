@@ -212,8 +212,32 @@ var="aaaabbbccddggjj"
 #             return i
 # print(miss_num(lis))
 
-lis=[1,2,4,5,6,7]
+# lis=[1,2,4,5,6,7]
+# n=max(lis)
+# sum=(n*n+1)/2
+# for i in lis:
+#     print(sum)
+#     sum=sum-1
+# print(sum)
 
+
+# dic={'}':'{',')':'(',']':'['}
+# def vali(va):
+#     for i in range(len(va)):
+#         if va[i] in '{([':
+#             li.append(va[i])
+        
+#         elif va[i] in '})]':
+#             if not li or li[-1]!=dic[va[i]]:
+#                 return False
+#             else:
+#                 li.pop()
+#     return len(li)==0      
+# li=[]      
+# va="[{()]]"
+# print(vali(va))
+    
+    
 
 
 
