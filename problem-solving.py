@@ -81,5 +81,30 @@ var="aaaabbbccddggjj"
 # print( a is a)
 
 
+# n="aaavvddsgteehf"
+# new_lis=[]
+# for i in range(len(n)):
+#     var=n[i]
+#     count=0
+#     for j in range(len(n)):
+#         if var==n[j]:
+#             count+=1
+#     if var not in new_lis:
+#         new_lis.extend([n[i],count])
+        
+# i=0
+# while i<len(new_lis)-1:
+#     print(new_lis[i],new_lis[i+1])
+#     i+=2
+        
+lis=[2,8,9,4,5,3]
+max_num=max(lis)
+del 
+
+for i in lis:
+    
+        
+    
+
 
         
