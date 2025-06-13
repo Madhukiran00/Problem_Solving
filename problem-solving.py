@@ -121,11 +121,29 @@ var="aaaabbbccddggjj"
 
 
 # list Comprehension
-user=input("madhukiran")
-li=[i for i in user]
-print(li)
+
+# lis=list(map(int,input("Enter num").split()))
+# print(lis)
+
+# lis=input("Enter you name\n")
+# li=[x for x in lis] 
+# print(li)
+
+
+# a=list(map(int,input().split()))
+
+# print(a)
     
     
+    
+# lis=[3,5,7,9,4,3,7]
+
+# fir_sec
+# for i in range(len(lis)):
+    
+# [[1,2],
+#  [3,4]]
+
     
 
 
