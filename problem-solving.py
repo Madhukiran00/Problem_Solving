@@ -99,9 +99,10 @@ var="aaaabbbccddggjj"
         
 lis=[2,8,9,4,5,3]
 max_num=max(lis)
-del 
+del lis.remove(max_num)
+print(max(lis))
 
-for i in lis:
+
     
         
     
