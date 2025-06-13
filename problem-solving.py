@@ -144,6 +144,18 @@ var="aaaabbbccddggjj"
 # [[1,2],
 #  [3,4]]
 
+r,c=map(int,input().split())
+
+main=[]
+
+for i in range(r):
+    sub=[]
+  
+    for j in range(c):
+        sub.append(int(input()))
+    main.append(sub)
+
+print(main)
     
 
 
