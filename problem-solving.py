@@ -1,27 +1,85 @@
-name="madhukiran"
-new_list=[]
-for i in range(len(name)):
-    var=name[i]
-    count=0
-    for j in range(len(name)):
-        if  var==name[j]:
+# name="madhukiran"
+# new_list=[]
+# for i in range(len(name)):
+#     var=name[i]
+#     count=0
+#     for j in range(len(name)):
+#         if  var==name[j]:
             
-            count+=1
-    if  var not in new_list:
-        new_list.extend([name[i],count])
+#             count+=1
+#     if  var not in new_list:
+#         new_list.extend([name[i],count])
         
-for i in range(0,len(new_list),2):
-    print(new_list[i],new_list[i+1])
+# for i in range(0,len(new_list),2):
+#     print(new_list[i],new_list[i+1])
       
-print("\n")
+# print("\n")
 
 
-#=---------------------------------------
+# #=---------------------------------------
 
-name="madhukiran"
-di={}
-for ch in name:
-    di[ch]=di.get(ch,0)+1
+# name="madhukiran"
+# di={}
+# for ch in name:
+#     di[ch]=di.get(ch,0)+1
     
-for ch,count in di.items():
-    print(ch,count)
+# for ch,count in di.items():
+#     print(ch,count)
+
+
+
+
+# name="ma_dhu_ki_ran_" 
+# new_str=" "
+# for i in range(len(name)):
+#     if name[i]=="_" and i<=len(name)-2:
+#         cap_let=(name[i+1]).upper()
+#         new_str+=cap_let
+        
+#     else:
+#         if  name[i] !="_" and chr(ord((name[i]).lower())-32)!= new_str[-1]:
+#             new_str+=name[i]
+# print(new_str)
+        
+        
+# user=input("enter num\n")
+
+
+# llist=[ ch for ch in name]
+
+
+# lis=[[1,2,3],[4,5],[6,7,8,9]]
+# new_lis=[]
+# for i  in range(len(lis)):
+#     new_lis.append(len(lis[i]))
+# print(max(new_lis))
+
+
+
+var="aaaabbbccddggjj"
+
+# di={}
+
+# for i in var:
+#     di[i]=di.get(i,0)+1
+# print(di)
+
+# print(di.get(i))
+
+# for i in range(len(var)):
+#     v=var[i]
+# #     for j in range(len(var))
+    
+# lis=[1,2,3,4]
+
+# lis1=[1,2,3,4]
+
+# print(lis is lis1)
+
+# a=10
+# a=11
+# print( a is a)
+
+
+
+        
