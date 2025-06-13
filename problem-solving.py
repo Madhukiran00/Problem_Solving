@@ -14,6 +14,8 @@ for i in range(0,len(new_list),2):
     print(new_list[i],new_list[i+1])
       
 print("\n")
+
+
 #=---------------------------------------
 
 name="madhukiran"
