@@ -247,15 +247,10 @@ var="aaaabbbccddggjj"
 #         zero.append(i)
 # print(zero+num)
 
-
-
-
-
-
 # def zero_mov(var):
 #     pos=0
 #     for i in range(len(var)):
-#         if var[pos]!=0:
+#         if var[i]!=0:
 #             var[pos]=var[i]
 #             pos+=1
     
@@ -268,28 +263,17 @@ var="aaaabbbccddggjj"
 # res=zero_mov(var)
 # print(res)
 
-
-def move_zeros(nums):
-    pos = 0  # Position to place the next non-zero element
-    
-    # Move non-zero elements to the front
-    for i in range(len(nums)):
-        if nums[i] != 0:
-            nums[pos] = nums[i]
-            pos += 1
-    
-    # Fill the rest with zeros
-    while pos < len(nums):
-        nums[pos] = 0
-        pos += 1
-    
-    return nums
-
-# Example usage:
-data = [0, 1, 0, 3, 12]
-result = move_zeros(data)
-print(result)  # [1, 3, 12, 0, 0]
-
+var='ab123cd23e12'
+maximum=0
+sum=0
+for i in range(len(var)):
+    if var[i].isdigit():
+        sum=sum*10+int(var[i])
+    else:
+        maximum=max(maximum,sum)
+        sum=0
+maximum=max(maximum,sum)     
+print(maximum)
 
 
 
