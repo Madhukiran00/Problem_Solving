@@ -155,17 +155,57 @@ var="aaaabbbccddggjj"
 
 # print(main)
 
-lis=[3,5,6,8,9,3]
 
-fir=lis[0]
-sec=lis[1]
 
-for i in range(len(lis)):
+# lis=[3,5,6,8,9,3]
+
+# fir=lis[0]
+# sec=lis[1]
+
+# for i in range(len(lis)):
     
-    if lis[i]>fir and lis[i]<sec:
-        sec=fir
-        fir=lis[i]
-    else:
+#     if lis[i]>=fir and lis[i]<=sec:
+#         sec=fir
+#         fir=lis[i]
+#     else:
+#         if lis[i]<=fir and lis[i]>= sec:
+#             sec=lis[i]
+        
+# print(fir,sec)
+        
+        
+        
+# lis=[[1,2,3],[4,5,6],[7,8,9]]
+# sum=0
+# for i in range(len(lis)): 
+#     sum+=lis[i][i]
+# print(sum)
+
+
+# name="madam"
+# def palin(name):
+#     j=len(name)-1
+#     for i in range(len(name)//2):
+#             if name[i]!=name[j]:
+#                 return False
+#             else:
+#                 j-=1
+#     return True       
+# print(palin(name))
+
+
+num=121
+temp=num
+res=0
+while num!=0:
+    rem=num%10
+    res=res*10+rem
+    num=num//10
+print(temp==res)
+    
+        
+        
+
         
 
     
