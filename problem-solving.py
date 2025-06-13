@@ -194,15 +194,33 @@ var="aaaabbbccddggjj"
 # print(palin(name))
 
 
-num=121
-temp=num
-res=0
-while num!=0:
-    rem=num%10
-    res=res*10+rem
-    num=num//10
-print(temp==res)
-    
+# num=121
+# temp=num
+# res=0
+# while num!=0:
+#     rem=num%10
+#     res=res*10+rem
+#     num=num//10
+# print(temp==res)
+
+# lis=[1,2,4,5,6,7]
+# li=lis[0]
+# max=max(lis)
+# def miss_num(lis):
+#     for i in range(4,max): 
+#         if i not in lis:
+#             return i
+# print(miss_num(lis))
+
+lis=[1,2,4,5,6,7]
+
+
+
+
+
+
+
+
         
         
 
