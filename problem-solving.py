@@ -263,27 +263,94 @@ var="aaaabbbccddggjj"
 # res=zero_mov(var)
 # print(res)
 
-var='ab123cd23e12'
-maximum=0
-sum=0
-for i in range(len(var)):
-    if var[i].isdigit():
-        sum=sum*10+int(var[i])
-    else:
-        maximum=max(maximum,sum)
-        sum=0
-maximum=max(maximum,sum)     
-print(maximum)
+# var='ab123cd23e12'
+# maximum=0
+# sum=0
+# for i in range(len(var)):
+#     if var[i].isdigit():
+#         sum=sum*10+int(var[i])
+#     else:
+#         maximum=max(maximum,sum)
+#         sum=0
+# maximum=max(maximum,sum)     
+# print(maximum)
+
+
+# a=[3, 5, 2, 9, 7]
+# max1=a[0]
+# max2=a[1]
+# for i in a:
+#     if max1<i:
+#         max2=max1
+#         max1=i
+#     elif max2<i and max1!=i:
+#         max2=i
+# print(max2)# 7
 
 
 
+# def power_num(base,exp):
+#     if exp==0:
+#         return 1
+#     elif exp==1:
+#         return base
+#     else:
+#         return base*power_num(base,exp-1)
+    
+# power=power_num(2,2)
+# print(power)
+
+
+# def exp(base,ex):
+#     if ex==0:
+#         return 1
+#     elif ex==1:
+#         return base
+#     else:
+#         return base*exp(base,ex-1)
+        
+# res=exp(2,3)
+# print(res)
+    
+
+
+# dic={'}':'{',')':'(',']':'['}
+# def vali(va):
+#    for i in range(len(va)):
+#        if va[i] in '{([':
+#            li.append(va[i])
+      
+#        elif va[i] in '})]':
+#            if not li or li[-1]!=dic[va[i]]:
+#                return False
+#            else:
+#                li.pop()
+#    return len(li)==0     
+# li=[]     
+# va="[{()}]"
+# print(vali(va))
+
+
+
+# li=[[1,2,3],[4,5,6],[7,8,9]]
+
+# for i in range(len(li)):
+#     print(li[i][i])
+# for i in range(len(li)):
+#     va=len(li)-1
+#     print(li[i][va-i],end=" ")
     
     
+# li=[[1,2],[4,5,6],[7,8,9,3]]
+# re=max([i for i in range(len(li))])
+# print(len(li[re]))
 
-
-
-
-
+# li=[[1,2],[4,5,6],[7,8,9,3]]
+# li_list=0
+# for i in li:
+#     if len(i)>li_list:
+#         li_list=len(i)
+# print(li_list) 
 
 
         
