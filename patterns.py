@@ -193,18 +193,34 @@
 #-------------------------------------
 # 20)
 
-n=5
+# n=5
 
-for i in range(n+1):
-    for j in range(i):
-        if j==0:
-            print(" "*(n-i),end=" ")
-        if (i>=2 and i<n and j>0 and j<(i-1)) :
-            print(" ",end=" ") 
-        else: 
-            print("*",end=" ")
-    print("")
+# for i in range(n+1):
+#     for j in range(i):
+#         if j==0:
+#             print(" "*(n-i),end=" ")
+#         if (i>=2 and i<n and j>0 and j<(i-1)) :
+#             print(" ",end=" ") 
+#         else: 
+#             print("*",end=" ")
+#     print("")
     
+#-------------------------------------------------
+
+#21)
+# n=5
+
+# for i in range(n,-1,-1):
+#     for j in range(i):
+#         if j==0:
+#             print(" "*(n-i),end=" ")
+#         if (i>=2 and i<n and j>0 and j<(i-1)) :
+#             print(" ",end=" ") 
+#         else: 
+#             print("*",end=" ")
+#     print("")
+
+#----------------------------------------------
 
 
 
