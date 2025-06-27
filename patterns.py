@@ -225,13 +225,7 @@
 
 # file=open("file.txt","")
 
-n=5
-for i in range(n):
-    for j in range(i+1): #0 1
-        if j==0:
-            print(" "*(n-i))
-        print("*",end="") #* * 
-    print("")
+
 
 
 
