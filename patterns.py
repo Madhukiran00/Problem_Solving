@@ -293,11 +293,6 @@
 # 19)
 
 
-
-
-
-
-
 #-------------------------------------
 # 20)
 
@@ -347,17 +342,5 @@
 
 
 
-
-findKeys(function(keys) {
-  goToATM(keys, function(cash) {
-    checkBalance(cash, function(balance) {
-      buyGroceries(balance, function(items) {
-        throwParty(items, function() {
-          console.log("Party time!");
-        });
-      });
-    });
-  });
-});
 
 
