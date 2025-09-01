@@ -297,9 +297,9 @@ var="aaaabbbccddggjj"
 #     else:
 #         return base*power_num(base,exp-1)
     
+    
 # power=power_num(2,2)
 # print(power)
-
 
 # def exp(base,ex):
 #     if ex==0:
