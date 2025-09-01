@@ -312,8 +312,6 @@ var="aaaabbbccddggjj"
 # res=exp(2,3)
 # print(res)
     
-
-
 # dic={'}':'{',')':'(',']':'['}
 # def vali(va):
 #    for i in range(len(va)):
