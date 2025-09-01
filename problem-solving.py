@@ -258,6 +258,7 @@ var="aaaabbbccddggjj"
 #         var[pos]=0
 #         pos+=1
 #     return var
+
     
 # var=[1,0,2,0,0,3]
 # res=zero_mov(var)
