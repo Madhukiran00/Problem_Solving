@@ -182,6 +182,7 @@ var="aaaabbbccddggjj"
 # print(sum)
 
 
+
 # name="madam"
 # def palin(name):
 #     j=len(name)-1
